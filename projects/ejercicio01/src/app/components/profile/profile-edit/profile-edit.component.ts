@@ -18,7 +18,6 @@ export class ProfileEditComponent implements OnInit {
   }
 
   saveProfile() {
-    console.log('hola');
     this.authService.setUsername(this.username).subscribe();
   }
 
